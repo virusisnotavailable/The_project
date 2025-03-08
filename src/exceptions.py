@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 # we are doing this for proper debuuging 
 # we will give a clear eroor so we can debug by default it is complex eror message and not detailed
 
@@ -31,12 +31,12 @@ class CustomException(Exception):
 #Error occurred in script [data_ingestion.py] at line [12]: FileNotFoundError: Test file not found
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    try:
-        a = 1/0
+#     try:
+#         a = 1/0
 
-    except Exception as e:
+#     except Exception as e:
 
-       logging.info("Divide by zero error")
-       raise CustomException(e,sys)
+#        logging.info("Divide by zero error")
+#        raise CustomException(e,sys)

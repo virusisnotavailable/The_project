@@ -28,5 +28,5 @@ logging.basicConfig(
     level=logging.INFO,  # Minimum log level to be recorded
 )
 
-if __name__ == "__main__":
-    logging.info("logging started")
+# if __name__ == "__main__":
+#     logging.info("logging started")
